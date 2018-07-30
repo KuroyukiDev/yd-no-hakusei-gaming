@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Videos Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-color-theme">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand logo-img" href="/">Portfolio</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav text-center">
+					<li><a href="/">Home</a></li>
+					<li class="active"><a href="/videogallery">Video Gallary</a></li>
+					<li><a href="/about">About</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+
+		<div class="lead">
+			<h3 class="text-center">{{pageTitle}}</h3>
+			<h4 class="text-center">{{subTitle}}</h4>
+		</div>
+		<br>
+		<iframe width="98%" height="355" src="https://www.youtube.com/embed/xxcxNURljow?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	<p class="text-center content-bottom">KuroyukiDev &copy;{{getCurrentYear}}</p>
+</body>
+</html>
