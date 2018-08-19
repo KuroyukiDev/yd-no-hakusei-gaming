@@ -47,17 +47,24 @@ app.get('/videogallery', (req, res) => {
 	});
 });
 
-app.get('/videoitem1', (req, res) => {
-	res.render('vid-pages/vid1.hbs', {
+app.get('/makami-event-1', (req, res) => {
+	res.render('vid-pages/makami-event/vid1.hbs', {
 		pageTitle: 'Oguchi Makami Event Dungeon Playthrough',
 		subTitle: 'Grotto of Eternity - Normal x10'
 	});
 });
 
-app.get('/videoitem2', (req, res) => {
-	res.render('vid-pages/vid2.hbs', {
+app.get('/makami-event-2', (req, res) => {
+	res.render('vid-pages/makami-event/vid2.hbs', {
 		pageTitle: 'Oguchi Makami Event Dungeon Playthrough',
 		subTitle: 'Dragon Spiral Den - Normal x10'
+	});
+});
+
+app.get('/money-farming-1', (req, res) => {
+	res.render('vid-pages/money-farming/money-vid-7-29-2018.hbs', {
+		pageTitle: 'Ryou Farming (July 29th 2018)',
+		subTitle: 'Yakumo Shrine in Kyoto - Hell Mode'
 	});
 });
 

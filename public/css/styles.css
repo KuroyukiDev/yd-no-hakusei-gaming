@@ -5,6 +5,10 @@ body {
 	background-color: azure;
 }
 
+.page-body {
+	margin-top: 60px;
+}
+
 .navbar-color-theme {
 	background-color: darkslategray;
 }
